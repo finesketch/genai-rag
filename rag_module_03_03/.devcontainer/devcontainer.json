@@ -1,0 +1,19 @@
+{
+    "name": "Finesketch-RAG",
+    "dockerComposeFile": "docker-compose.yml", // Path to your docker-compose.yml
+    "service": "weaviate", // The name of the service in docker-compose.yml that represents your dev container
+    "workspaceFolder": "/workspace", // Mount your local workspace into the dev container
+    // Add other Dev Container configurations as needed
+    "customizations": {
+    "vscode": {
+        "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "ms-toolsai.jupyter",
+        "yahyabatulu.vscode-markdown-alert",
+        "tomoki1207.pdf",
+        "mechatroner.rainbow-csv"
+        ]
+    }
+    }
+}
